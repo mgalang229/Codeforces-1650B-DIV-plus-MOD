@@ -12,7 +12,7 @@ void perform_test() {
 	// the next value to check other than r, is r - (r mod a) + 1 because:
 	// - it has the maximum possible remainder
 	// - it has the maximum possible quotient among numbers < r - (r mod a) + 1, but
-	// it is only applicable to compared iff it's within the range o6f [l, r] inclusive
+	// it is only applicable to compared iff it's within the range of [l, r] inclusive
 	r -= (x + 1); // this is where the next cycle begins
 	if(r >= l) {
 		ans = max(ans, r / a + r % a);
