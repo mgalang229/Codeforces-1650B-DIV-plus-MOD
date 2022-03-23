@@ -18,7 +18,7 @@ void perform_test() {
 		ans = max(ans, r / a + r % a);
 	}
 	//sample testcase:
-	//let l = 3, r = 8m a = 5
+	//let l = 3, r = 8, a = 5
 	//3 4 5 6 7 8
 	//8 % 5 = 3
 	//7 % 5 = 2
